@@ -4,7 +4,7 @@ const yt = require('ytdl-core');
 const ayarlar = require('./ayarlar.json');
 const client = new Client();
 
-const youtube = new YouTube(ayarlar.api);
+const youtube = new YouTube(process.env.YOUTUBE_APİ);
 
 
 
